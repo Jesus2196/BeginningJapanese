@@ -11,9 +11,13 @@ export default function NavBar(props) {
 
   return (
     <nav>
-      <Link to="/orders">Order History</Link>
+      <Link to="/learning">Leaning Characters</Link>
       &nbsp; | &nbsp;
-      <Link to="/orders/new">New Order</Link>
+      <Link to="/studying">Studying Characters</Link>
+      &nbsp; | &nbsp;
+      <Link to="/words">Words</Link>
+      &nbsp; | &nbsp;
+      <Link to="/flashCards">Flash Cards</Link>
       &nbsp; | &nbsp;
       <span>Welcome, {props.user.name}</span>
       &nbsp; | &nbsp;
