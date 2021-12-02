@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function LearningCharacters() {
 
@@ -17,12 +18,12 @@ export default function LearningCharacters() {
       <div className="dropdown">
         <button className="dropbtn" onClick={myFunction} >Hiragana</button>
         <div id="myDropdown" className="dropdown-content">
-          <a href="hiragana.html">All Hiragana</a>
-          <a href="#about">Hiragana A</a>
-          <a href="#about">Hiragana E</a>
-          <a href="#about">Hiragana I</a>
-          <a href="#about">Hiragana O</a>
-          <a href="#about">Hiragana U</a>
+          <Link to="/learning/hiragana">All Hiragana</Link>
+          <Link to="/learning/hiragana/A">Hiragana A</Link>
+          <Link to="/learning/hiragana/E">Hiragana E</Link>
+          <Link to="/learning/hiragana/I">Hiragana I</Link>
+          <Link to="/learning/hiragana/O">Hiragana O</Link>
+          <Link to="/learning/hiragana/U">Hiragana U</Link>
         </div>
       </div>
       &nbsp;
@@ -34,12 +35,12 @@ export default function LearningCharacters() {
       <div className="dropdown">
         <button className="dropbtn" onClick={myFunction2}>Katakana</button>
         <div id="myDropdown2" className="dropdown-content">
-          <a href="katakana.html">All Katakana</a>
-          <a href="#about">Katakana A</a>
-          <a href="#about">Katakana E</a>
-          <a href="#about">Katakana I</a>
-          <a href="#about">Katakana O</a>
-          <a href="#about">Katakana U</a>
+          <Link to="/learning/katakana">All Katakana</Link>
+          <Link to="/learning/katakana/A">Katakana A</Link>
+          <Link to="/learning/katakana/E">Katakana E</Link>
+          <Link to="/learning/katakana/I">Katakana I</Link>
+          <Link to="/learning/katakana/O">Katakana O</Link>
+          <Link to="/learning/katakana/U">Katakana U</Link>
         </div>
       </div>
     </div>

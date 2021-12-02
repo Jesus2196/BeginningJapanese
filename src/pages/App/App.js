@@ -17,8 +17,8 @@ export default function App() {
         <>
           <NavBar user={user} setUser={setUser} />
           <Routes>
-            {/* client-side route that renders the component instance if the path matches the url in the address bar */}
             <Route path="/learning" element={<LearningCharacters />} />
+            {/* <Route path='/learning/hiragana' element={<Hiragana />} />        MAYBE????   */}
             <Route path="/studying" element={<StudyingCharacters />} />
             <Route path="/words" element={<CommonWords />} />
             <Route path="/flashCards" element={<FlashCards />} />
