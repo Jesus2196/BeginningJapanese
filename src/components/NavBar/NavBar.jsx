@@ -15,7 +15,7 @@ export default function NavBar(props) {
       &nbsp; | &nbsp;
       <Link to="/studying">Studying Characters</Link>
       &nbsp; | &nbsp;
-      <Link to="/words">Words</Link>
+      <Link to="/words">Common Words</Link>
       &nbsp; | &nbsp;
       <Link to="/flashCards">Flash Cards</Link>
       &nbsp; | &nbsp;
