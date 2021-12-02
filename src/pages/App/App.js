@@ -6,6 +6,7 @@ import AuthPage from '../AuthPage/AuthPage';
 import LearningCharacters from '../LearningCharacters/LearningCharacters';
 import StudyingCharacters from '../StudyingCharacters/StudyingCharacters';
 import CommonWords from '../CommonWords/CommonWords';
+import FlashCards from '../FlashCards/FlashCards'
 import NavBar from '../../components/NavBar/NavBar';
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/learning" element={<LearningCharacters />} />
             <Route path="/studying" element={<StudyingCharacters />} />
             <Route path="/words" element={<CommonWords />} />
+            <Route path="/flashCards" element={<FlashCards />} />
           </Routes>
         </>
         :
