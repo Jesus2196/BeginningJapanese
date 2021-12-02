@@ -4,6 +4,7 @@ import './App.css';
 import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
 import LearningCharacters from '../LearningCharacters/LearningCharacters';
+import Hiragana from '../LearningCharacters/Hiragana';
 import StudyingCharacters from '../StudyingCharacters/StudyingCharacters';
 import CommonWords from '../CommonWords/CommonWords';
 import FlashCards from '../FlashCards/FlashCards'
@@ -18,7 +19,7 @@ export default function App() {
           <NavBar user={user} setUser={setUser} />
           <Routes>
             <Route path="/learning" element={<LearningCharacters />} />
-            {/* <Route path='/learning/hiragana' element={<Hiragana />} />        MAYBE????   */}
+            <Route path='/learning/hiragana' element={<Hiragana />} /> 
             <Route path="/studying" element={<StudyingCharacters />} />
             <Route path="/words" element={<CommonWords />} />
             <Route path="/flashCards" element={<FlashCards />} />
