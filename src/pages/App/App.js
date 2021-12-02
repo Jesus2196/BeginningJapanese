@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
 import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
@@ -18,11 +18,12 @@ export default function App() {
         <>
           <NavBar user={user} setUser={setUser} />
           <Routes>
-            <Route path="/learning" element={<LearningCharacters />} />
-            <Route path='/learning/hiragana' element={<Hiragana />} /> 
-            <Route path="/studying" element={<StudyingCharacters />} />
-            <Route path="/words" element={<CommonWords />} />
-            <Route path="/flashCards" element={<FlashCards />} />
+            <Route path="/learning" element={<LearningCharacters user={user} setUser={setUser}/>} />
+            <Route path='/learning/hiragana' element={<Hiragana user={user} setUser={setUser}/>} /> 
+            <Route path="/studying" element={<StudyingCharacters user={user} setUser={setUser}/>} />
+            <Route path="/words" element={<CommonWords user={user} setUser={setUser}/>} />
+            <Route path="/flashCards" element={<FlashCards user={user} setUser={setUser}/>} />
+            <Route path="/*" element={<Navigate to="/learning" />} />
           </Routes>
         </>
         :
