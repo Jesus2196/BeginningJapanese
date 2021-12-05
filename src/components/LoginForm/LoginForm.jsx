@@ -39,7 +39,6 @@ export default function LoginForm({ setUser }) {
             <button className="login-button" type="submit">LOG IN</button>
           </form>
         </div>
-        <p>&nbsp;{error}</p>
         <div className="login-overlay-container">
           <div className="login-overlay">
             <div className="login-overlay-panel login-overlay-right">
@@ -49,6 +48,7 @@ export default function LoginForm({ setUser }) {
           </div>
         </div>
       </div>
+      <p>&nbsp;{error}</p>
     </div>
 
   );
