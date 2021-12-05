@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './LoginForm.css';
 import * as usersService from '../../utilities/users-service';
 
 export default function LoginForm({ setUser }) {
@@ -28,17 +29,27 @@ export default function LoginForm({ setUser }) {
   }
 
   return (
-    <div>
-      <div className="form-container" onSubmit={handleSubmit}>
-        <form autoComplete="off" >
-          <label>Email</label>
-          <input type="text" name="email" value={credentials.email} onChange={handleChange} required />
-          <label>Password</label>
-          <input type="password" name="password" value={credentials.password} onChange={handleChange} required />
-          <button type="submit">LOG IN</button>
-        </form>
+    <div id="login">
+      <div className="login-container" id="container" onSubmit={handleSubmit}>
+        <div className="login-form-container login-log-in-container">
+          <form className="login-form" autoComplete="off" >
+            <h1 className="login">Login</h1>
+            <input className="login-input" type="email" name="email" value={credentials.email} onChange={handleChange} placeholder="email" required />
+            <input className="login-input" type="password" name="password" value={credentials.password} onChange={handleChange} placeholder="password" required />
+            <button className="login-button" type="submit">LOG IN</button>
+          </form>
+        </div>
+        <p>&nbsp;{error}</p>
+        <div className="login-overlay-container">
+          <div className="login-overlay">
+            <div className="login-overlay-panel login-overlay-right">
+              <h1>Beginning Japanese</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sunt eligendi nesciunt explicabo neque ut accusamus? Aperiam, aut! Accusamus possimus sequi sapiente exercitationem delectus dolore aperiam ratione eius ea sed.</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <p className="error-message">&nbsp;{error}</p>
     </div>
+
   );
 }

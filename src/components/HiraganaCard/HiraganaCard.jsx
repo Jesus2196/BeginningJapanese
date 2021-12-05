@@ -1,10 +1,9 @@
 import React from "react"
 
-export default function HiraganaCard({ hiragana }) {
+export default function HiraganaCard({ character }) {
     return (
         <div>
-            <h1>Test</h1>
-            {/* {hiragana.character} */}
+            {character.character}
         </div>
     )
 }
