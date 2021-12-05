@@ -52,7 +52,7 @@ export default class SignUpForm extends Component {
               <input className="login-input" placeholder="Email" type="email" name="email" value={this.state.email} onChange={this.handleChange} required />
               <input className="login-input" placeholder="Password" type="password" name="password" value={this.state.password} onChange={this.handleChange} required />
               <input className="login-input" placeholder="Confirm Password" type="password" name="confirm" value={this.state.confirm} onChange={this.handleChange} required />
-              <button className="login-button" type="submit" disabled={disable}>SIGN UP</button>
+              <button className="login-button button-4" type="submit" disabled={disable}>SIGN UP</button>
             </form>
           </div>
           <div className="login-overlay-container">

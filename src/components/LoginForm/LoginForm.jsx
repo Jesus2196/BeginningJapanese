@@ -34,9 +34,9 @@ export default function LoginForm({ setUser }) {
         <div className="login-form-container login-log-in-container">
           <form className="login-form" autoComplete="off" >
             <h1 className="login">Login</h1>
-            <input className="login-input" type="email" name="email" value={credentials.email} onChange={handleChange} placeholder="email" required />
-            <input className="login-input" type="password" name="password" value={credentials.password} onChange={handleChange} placeholder="password" required />
-            <button className="login-button" type="submit">LOG IN</button>
+            <input className="login-input" type="email" name="email" value={credentials.email} onChange={handleChange} placeholder="Email" required />
+            <input className="login-input" type="password" name="password" value={credentials.password} onChange={handleChange} placeholder="Password" required />
+            <button className="login-button button-4" type="submit">LOG IN</button>
           </form>
         </div>
         <div className="login-overlay-container">

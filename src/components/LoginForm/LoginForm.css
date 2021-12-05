@@ -130,3 +130,29 @@
 .login {
     padding-bottom: 50px;
 }
+
+.button-4 {
+    background-color: transparent;
+    border: 3px solid #ff0251;
+    color: #ff0251;
+    transition: .3s;
+}
+
+.button-4:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
