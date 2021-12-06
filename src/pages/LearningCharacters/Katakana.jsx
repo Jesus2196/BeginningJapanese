@@ -1,8 +1,8 @@
 import React from "react";
-import HiraganaCard from "../../components/HiraganaCard/HiraganaCard";
+import KatakanaCard from "../../components/KatakanaCard/KatakanaCard";
 import { useParams } from 'react-router-dom';
 
-export default function Hiragana({ characters }) {
+export default function Katakana({ characters }) {
     let chars;
     const { letter } = useParams();
     if (letter === 'all') {
@@ -14,8 +14,8 @@ export default function Hiragana({ characters }) {
 
     return (
         <div>
-            <h1>Hiragana</h1>
-            {chars.map((h, i) => <HiraganaCard character={h} key={i} />)}
+            <h1>Katakana</h1>
+            {chars.map((k, i) => <KatakanaCard character={k} key={i} />)}
         </div>
     )
 }

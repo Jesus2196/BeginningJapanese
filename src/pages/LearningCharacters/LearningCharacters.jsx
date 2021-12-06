@@ -35,7 +35,7 @@ export default function LearningCharacters() {
       <div className="dropdown">
         <button className="dropbtn" onClick={myFunction2}>Katakana</button>
         <div id="myDropdown2" className="dropdown-content">
-          <Link to="/learning/katakana">All Katakana</Link>
+          <Link to="/learning/katakana/all">All Katakana</Link>
           <Link to="/learning/katakana/A">Katakana A</Link>
           <Link to="/learning/katakana/E">Katakana E</Link>
           <Link to="/learning/katakana/I">Katakana I</Link>

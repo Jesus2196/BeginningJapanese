@@ -342,6 +342,342 @@ const Character = require('./models/character');
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Japanese_Hiragana_kyokashotai_N.svg/150px-Japanese_Hiragana_kyokashotai_N.svg.png",
             character: "N",
             strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Hiragana_%E3%82%93_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Japanese_Katakana_kyokashotai_A.svg/150px-Japanese_Katakana_kyokashotai_A.svg.png",
+            character: "A",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Katakana_%E3%82%A2_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Japanese_Katakana_kyokashotai_KA.svg/150px-Japanese_Katakana_kyokashotai_KA.svg.png",
+            character: "Ka",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Katakana_%E3%82%AB_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Japanese_Katakana_kyokashotai_SA.svg/150px-Japanese_Katakana_kyokashotai_SA.svg.png",
+            character: "Sa",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/b/bf/Katakana_%E3%82%B5_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Japanese_Katakana_kyokashotai_TA.svg/150px-Japanese_Katakana_kyokashotai_TA.svg.png",
+            character: "Ta",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Katakana_%E3%82%BF_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Japanese_Katakana_kyokashotai_NA.svg/150px-Japanese_Katakana_kyokashotai_NA.svg.png",
+            character: "Na",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/8/87/Katakana_%E3%83%8A_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Japanese_Katakana_kyokashotai_HA.svg/150px-Japanese_Katakana_kyokashotai_HA.svg.png",
+            character: "Ha",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Katakana_%E3%83%8F_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Japanese_Katakana_kyokashotai_MA.svg/150px-Japanese_Katakana_kyokashotai_MA.svg.png",
+            character: "Ma",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/8/87/Katakana_%E3%83%9E_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Japanese_Katakana_kyokashotai_YA.svg/150px-Japanese_Katakana_kyokashotai_YA.svg.png",
+            character: "Ya",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Katakana_%E3%83%A4_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Japanese_Katakana_kyokashotai_RA.svg/150px-Japanese_Katakana_kyokashotai_RA.svg.png",
+            character: "Ra",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Katakana_%E3%83%A9_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Japanese_Katakana_kyokashotai_WA.svg/150px-Japanese_Katakana_kyokashotai_WA.svg.png",
+            character: "Wa",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Katakana_%E3%83%AF_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Japanese_Katakana_kyokashotai_E.svg/150px-Japanese_Katakana_kyokashotai_E.svg.png",
+            character: "E",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/9/99/Katakana_%E3%82%A8_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Japanese_Katakana_kyokashotai_KE.svg/150px-Japanese_Katakana_kyokashotai_KE.svg.png",
+            character: "Ke",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/9/98/Katakana_%E3%82%B1_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Japanese_Katakana_kyokashotai_SE.svg/150px-Japanese_Katakana_kyokashotai_SE.svg.png",
+            character: "Se",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/8/80/Katakana_%E3%82%BB_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Japanese_Katakana_kyokashotai_TE.svg/150px-Japanese_Katakana_kyokashotai_TE.svg.png",
+            character: "Te",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/9/90/Katakana_%E3%83%86_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Japanese_Katakana_kyokashotai_NE.svg/150px-Japanese_Katakana_kyokashotai_NE.svg.png",
+            character: "Ne",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/1/14/Katakana_%E3%83%8D_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Japanese_Katakana_kyokashotai_HE.svg/150px-Japanese_Katakana_kyokashotai_HE.svg.png",
+            character: "He",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/7/70/Katakana_%E3%83%98_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Japanese_Katakana_kyokashotai_ME.svg/150px-Japanese_Katakana_kyokashotai_ME.svg.png",
+            character: "Me",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/0/00/Katakana_%E3%83%A1_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Japanese_Katakana_kyokashotai_RE.svg/150px-Japanese_Katakana_kyokashotai_RE.svg.png",
+            character: "Re",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Katakana_%E3%83%AC_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Japanese_Katakana_kyokashotai_WE.svg/150px-Japanese_Katakana_kyokashotai_WE.svg.png",
+            character: "We",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/1/14/Katakana_%E3%83%B1_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Japanese_Katakana_kyokashotai_I.svg/150px-Japanese_Katakana_kyokashotai_I.svg.png",
+            character: "I",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/9/94/Katakana_%E3%82%A4_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Japanese_Katakana_kyokashotai_KI.svg/150px-Japanese_Katakana_kyokashotai_KI.svg.png",
+            character: "Ki",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/8/81/Katakana_%E3%82%AD_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Japanese_Katakana_kyokashotai_SI.svg/150px-Japanese_Katakana_kyokashotai_SI.svg.png",
+            character: "Shi",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/3/36/Katakana_%E3%82%B7_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Japanese_Katakana_kyokashotai_TI.svg/150px-Japanese_Katakana_kyokashotai_TI.svg.png",
+            character: "Chi",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Katakana_%E3%83%81_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Japanese_Katakana_kyokashotai_NI.svg/150px-Japanese_Katakana_kyokashotai_NI.svg.png",
+            character: "Ni",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/2/29/Katakana_%E3%83%8B_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Japanese_Katakana_kyokashotai_HI.svg/150px-Japanese_Katakana_kyokashotai_HI.svg.png",
+            character: "Hi",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Katakana_%E3%83%92_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Japanese_Katakana_kyokashotai_MI.svg/150px-Japanese_Katakana_kyokashotai_MI.svg.png",
+            character: "Mi",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/2/28/Katakana_%E3%83%9F_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Japanese_Katakana_kyokashotai_RI.svg/150px-Japanese_Katakana_kyokashotai_RI.svg.png",
+            character: "Ri",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Katakana_%E3%83%AA_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Japanese_Katakana_kyokashotai_WI.svg/150px-Japanese_Katakana_kyokashotai_WI.svg.png",
+            character: "Wi",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Katakana_%E3%83%B0_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Japanese_Katakana_kyokashotai_O.svg/150px-Japanese_Katakana_kyokashotai_O.svg.png",
+            character: "O",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/d/de/Katakana_%E3%82%AA_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Japanese_Katakana_kyokashotai_KO.svg/150px-Japanese_Katakana_kyokashotai_KO.svg.png",
+            character: "Ko",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Katakana_%E3%82%B3_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Japanese_Katakana_kyokashotai_SO.svg/150px-Japanese_Katakana_kyokashotai_SO.svg.png",
+            character: "So",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/6/63/Katakana_%E3%82%BD_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Japanese_Katakana_kyokashotai_TO.svg/150px-Japanese_Katakana_kyokashotai_TO.svg.png",
+            character: "To",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/5/52/Katakana_%E3%83%88_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Japanese_Katakana_kyokashotai_NO.svg/150px-Japanese_Katakana_kyokashotai_NO.svg.png",
+            character: "No",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/6/64/Katakana_%E3%83%8E_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Japanese_Katakana_kyokashotai_HO.svg/150px-Japanese_Katakana_kyokashotai_HO.svg.png",
+            character: "Ho",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/9/95/Katakana_%E3%83%9B_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Japanese_Katakana_kyokashotai_MO.svg/150px-Japanese_Katakana_kyokashotai_MO.svg.png",
+            character: "Mo",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Katakana_%E3%83%A2_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Japanese_Katakana_kyokashotai_YO.svg/150px-Japanese_Katakana_kyokashotai_YO.svg.png",
+            character: "Yo",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/7/76/Katakana_%E3%83%A8_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Japanese_Katakana_kyokashotai_RO.svg/150px-Japanese_Katakana_kyokashotai_RO.svg.png",
+            character: "Ro",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/6/62/Katakana_%E3%83%AD_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Japanese_Katakana_kyokashotai_WO.svg/150px-Japanese_Katakana_kyokashotai_WO.svg.png",
+            character: "Wo",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/3/35/Katakana_%E3%83%B2_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Japanese_Katakana_kyokashotai_U.svg/150px-Japanese_Katakana_kyokashotai_U.svg.png",
+            character: "U",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Katakana_%E3%82%A6_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Japanese_Katakana_kyokashotai_KU.svg/150px-Japanese_Katakana_kyokashotai_KU.svg.png",
+            character: "Ku",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Katakana_%E3%82%AF_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Japanese_Katakana_kyokashotai_SU.svg/150px-Japanese_Katakana_kyokashotai_SU.svg.png",
+            character: "Su",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Katakana_%E3%82%B9_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Japanese_Katakana_kyokashotai_TU.svg/150px-Japanese_Katakana_kyokashotai_TU.svg.png",
+            character: "Tsu",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/7/73/Katakana_%E3%83%84_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Japanese_Katakana_kyokashotai_NU.svg/150px-Japanese_Katakana_kyokashotai_NU.svg.png",
+            character: "Nu",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/1/12/Katakana_%E3%83%8C_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Japanese_Katakana_kyokashotai_HU.svg/150px-Japanese_Katakana_kyokashotai_HU.svg.png",
+            character: "Fu",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Katakana_%E3%83%95_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Japanese_Katakana_kyokashotai_MU.svg/150px-Japanese_Katakana_kyokashotai_MU.svg.png",
+            character: "Mu",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/4/40/Katakana_%E3%83%A0_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Japanese_Katakana_kyokashotai_YU.svg/150px-Japanese_Katakana_kyokashotai_YU.svg.png",
+            character: "Yu",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Katakana_%E3%83%A6_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Japanese_Katakana_kyokashotai_RU.svg/150px-Japanese_Katakana_kyokashotai_RU.svg.png",
+            character: "Ru",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Katakana_%E3%83%AB_stroke_order_animation.gif"
+        },
+        {
+            characterType: 'K',            
+            img_path:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Japanese_Katakana_kyokashotai_N.svg/150px-Japanese_Katakana_kyokashotai_N.svg.png",
+            character: "N",
+            strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Katakana_%E3%83%B3_stroke_order_animation.gif"
         }
     ]);
 

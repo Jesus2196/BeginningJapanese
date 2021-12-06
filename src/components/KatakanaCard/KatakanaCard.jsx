@@ -1,7 +1,6 @@
 import React from "react";
-import './HiraganaCard.css';
 
-export default function HiraganaCard({ character }) {
+export default function KatakanaCard({ character }) {
     return (
         <main>
             <div className="column">

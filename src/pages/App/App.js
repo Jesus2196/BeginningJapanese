@@ -5,6 +5,7 @@ import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
 import LearningCharacters from '../LearningCharacters/LearningCharacters';
 import Hiragana from '../LearningCharacters/Hiragana';
+import Katakana from '../LearningCharacters/Katakana';
 import StudyingCharacters from '../StudyingCharacters/StudyingCharacters';
 import CommonWords from '../CommonWords/CommonWords';
 import FlashCards from '../FlashCards/FlashCards'
@@ -31,7 +32,8 @@ export default function App() {
           <NavBar user={user} setUser={setUser} />
           <Routes>
             <Route path="/learning" element={<LearningCharacters />} />
-            <Route path='/learning/hiragana/:letter' element={<Hiragana characters={characters} />} />
+            <Route path='/learning/hiragana/:letter' element={<Hiragana characters={characters.filter(c => c.characterType === 'H')} />} />
+            <Route path='/learning/katakana/:letter' element={<Katakana characters={characters.filter(c => c.characterType === 'K')} />} />
             <Route path="/studying" element={<StudyingCharacters />} />
             <Route path="/words" element={<CommonWords />} />
             <Route path="/flashCards" element={<FlashCards />} />
