@@ -18,7 +18,7 @@ export default function LearningCharacters() {
       <div className="dropdown">
         <button className="dropbtn" onClick={myFunction} >Hiragana</button>
         <div id="myDropdown" className="dropdown-content">
-          <Link to="/learning/hiragana">All Hiragana</Link>
+          <Link to="/learning/hiragana/all">All Hiragana</Link>
           <Link to="/learning/hiragana/A">Hiragana A</Link>
           <Link to="/learning/hiragana/E">Hiragana E</Link>
           <Link to="/learning/hiragana/I">Hiragana I</Link>
