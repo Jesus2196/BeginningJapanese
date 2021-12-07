@@ -678,7 +678,325 @@ const Character = require('./models/character');
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Japanese_Katakana_kyokashotai_N.svg/150px-Japanese_Katakana_kyokashotai_N.svg.png",
             character: "N",
             strokeOrder: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Katakana_%E3%83%B3_stroke_order_animation.gif"
-        }
+        },
+        {
+            characterType: 'C',
+            eWord: 'White',
+            jWord: 'Shiro',
+            hWord: 'しろ'
+        },
+        {
+            characterType: 'C',
+            eWord: 'Black',
+            jWord: 'Kuro',
+            hWord: 'くろ'
+        },
+        {
+            characterType: 'C',
+            eWord: 'Red',
+            jWord: 'Aka',
+            hWord: 'あか'
+        },
+        {
+            characterType: 'C',
+            eWord: 'Orange',
+            jWord: 'Orenji',
+            hWord: 'オレンジ'
+        },
+        {
+            characterType: 'C',
+            eWord: 'Yellow',
+            jWord: 'Kiiro',
+            hWord: 'きいろ'
+        },
+        {
+            characterType: 'C',
+            eWord: 'Green',
+            jWord: 'Midori',
+            hWord: 'みどり'
+        },
+        {
+            characterType: 'C',
+            eWord: 'Blue',
+            jWord: 'Ao',
+            hWord: 'あお'
+        },
+        {
+            characterType: 'C',
+            eWord: 'Purple',
+            jWord: 'Murasaki',
+            hWord: 'むらさき'
+        },
+        {
+            characterType: 'C',
+            eWord: 'Pink',
+            jWord: 'Momoiro',
+            hWord: 'ももいろ'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Zero',
+            jWord: 'Zero',
+            hWord: 'ゼロ'
+        },
+        {
+            characterType: 'N',
+            eWord: 'One',
+            jWord: 'Ichi',
+            hWord: '一'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Two',
+            jWord: 'Ni',
+            hWord: '二'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Three',
+            jWord: 'San',
+            hWord: '三'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Four',
+            jWord: 'Yon',
+            hWord: '四'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Five',
+            jWord: 'Go',
+            hWord: '五'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Six',
+            jWord: 'Roku',
+            hWord: '六'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Seven',
+            jWord: 'Nana',
+            hWord: '七'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Eight',
+            jWord: 'Hachi',
+            hWord: '八'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Nine',
+            jWord: 'Kyū',
+            hWord: '九'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Ten',
+            jWord: 'Jū',
+            hWord: '十'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Eleven',
+            jWord: 'Jūichi',
+            hWord: '十一 '
+        },
+        {
+            characterType: 'N',
+            eWord: 'Twelve',
+            jWord: 'Jūni',
+            hWord: '十二'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Thirteen',
+            jWord: 'Jūsan',
+            hWord: '十三'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Fourteen',
+            jWord: 'Jūyon',
+            hWord: '十四'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Fifteen',
+            jWord: 'Jūgo',
+            hWord: '十五'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Sixteen',
+            jWord: 'Jūroku',
+            hWord: '十六'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Seventeen',
+            jWord: 'Jūnana',
+            hWord: '十七'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Eighteen',
+            jWord: 'Jūhachi',
+            hWord: '十八'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Ninteen',
+            jWord: 'Jūkyū',
+            hWord: '十九'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Twenty',
+            jWord: 'Nijū',
+            hWord: '二十'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Thirty',
+            jWord: 'Sanjū',
+            hWord: '三十'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Forty',
+            jWord: 'Yonjū',
+            hWord: '四十'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Fifty',
+            jWord: 'Gojū',
+            hWord: '五十'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Sixty',
+            jWord: 'Rokujū',
+            hWord: '六十'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Seventy',
+            jWord: 'Nanajū',
+            hWord: '七十'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Eighty',
+            jWord: 'Hachijū',
+            hWord: '八十'
+        },
+        {
+            characterType: 'N',
+            eWord: 'Ninety',
+            jWord: 'Kyūjū',
+            hWord: '九十'
+        },
+        {
+            characterType: 'N',
+            eWord: 'One hundred',
+            jWord: 'Hyaku',
+            hWord: '百'
+        },
+        {
+            characterType: 'W',
+            eWord: 'Hello',
+            jWord: 'Konnichiwa',
+            hWord: 'こんにちは'
+        },
+        {
+            characterType: 'W',
+            eWord: 'Yes',
+            jWord: 'Hai',
+            hWord: 'はい'
+        },
+        {
+            characterType: 'W',
+            eWord: 'No',
+            jWord: 'Iie',
+            hWord: 'いいえ'
+        },
+        {
+            characterType: 'W',
+            eWord: 'Please',
+            jWord: 'Onegai Shimasu',
+            hWord: 'おねがいします'
+        },
+        {
+            characterType: 'W',
+            eWord: 'Thank You',
+            jWord: 'Arigatou',
+            hWord: 'ありがとう'
+        },
+        {
+            characterType: 'W',
+            eWord: "You're Welcome",
+            jWord: 'Dōitashimashite',
+            hWord: 'どういたしまして'
+        },
+        {
+            characterType: 'W',
+            eWord: 'Excuse Me',
+            jWord: 'Sumimasen',
+            hWord: 'すみません'
+        },
+        {
+            characterType: 'W',
+            eWord: 'I am sorry',
+            jWord: 'Gomennasai',
+            hWord: 'ごめんなさい'
+        },
+        {
+            characterType: 'W',
+            eWord: 'Good Morning',
+            jWord: 'Ohayōu (Gozaimasu)',
+            hWord: 'おはよう ございます'
+        },
+        {
+            characterType: 'W',
+            eWord: 'Good Evening',
+            jWord: 'Konbanwa',
+            hWord: 'こんばんは'
+        },
+        {
+            characterType: 'W',
+            eWord: 'Good Night',
+            jWord: 'Oyasumi (nasai)',
+            hWord: 'おやすみ なさい'
+        },
+        {
+            characterType: 'W',
+            eWord: "I don't understand",
+            jWord: 'Wakarimasen',
+            hWord: 'わかりません'
+        },
+        {
+            characterType: 'W',
+            eWord: '(Phrase said before eating) ',
+            jWord: 'Itadakimasu',
+            hWord: 'いただきます'
+        },
+        {
+            characterType: 'W',
+            eWord: 'Congratulations',
+            jWord: 'Omedetou',
+            hWord: 'おめでとう'
+        },
+        {
+            characterType: 'W',
+            eWord: 'Cheers',
+            jWord: 'Kanpai',
+            hWord: '乾杯'
+        },
     ]);
 
     process.exit();

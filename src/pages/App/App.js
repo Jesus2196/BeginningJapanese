@@ -8,6 +8,7 @@ import Hiragana from '../LearningCharacters/Hiragana';
 import Katakana from '../LearningCharacters/Katakana';
 import StudyingCharacters from '../StudyingCharacters/StudyingCharacters';
 import CommonWords from '../CommonWords/CommonWords';
+import Words from '../CommonWords/Words';
 import FlashCards from '../FlashCards/FlashCards'
 import NavBar from '../../components/NavBar/NavBar';
 import * as CharactersAPI from '../../utilities/characters-api';
@@ -36,6 +37,10 @@ export default function App() {
             <Route path='/learning/katakana/:letter' element={<Katakana characters={characters.filter(c => c.characterType === 'K')} />} />
             <Route path="/studying" element={<StudyingCharacters />} />
             <Route path="/words" element={<CommonWords />} />
+            <Route path="/words/all" element={<Words characters={characters} />} />
+            <Route path="/words/numbers/" element={<Words characters={characters.filter(c => c.characterType === "N")} />} />
+            <Route path="/words/easy/" element={<Words characters={characters.filter(c => c.characterType === "W")} />} />
+            <Route path="/words/colors/" element={<Words characters={characters.filter(c => c.characterType === "C")} />} />
             <Route path="/flashCards" element={<FlashCards />} />
             <Route path="/*" element={<Navigate to="/learning" />} />
           </Routes>
