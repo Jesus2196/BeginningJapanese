@@ -5,6 +5,7 @@ module.exports = {
 }
 
 async function index(req, res) {
-    const characters = await Character.find({});
+    const characters = await Character.find({}).sort('name').exec();
+    characters.sort((a, b) => a.sortOrder - b.sortOrder);
     res.json(characters);
 }

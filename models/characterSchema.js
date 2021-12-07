@@ -14,6 +14,7 @@ const characterSchema = new Schema({
     eWord: { type: String },
     jWord: { type: String },
     hWord: { type: String },
+    sortOrder: Number
 }, {
     timestamps: true
 });

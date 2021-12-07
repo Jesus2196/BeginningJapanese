@@ -735,174 +735,203 @@ const Character = require('./models/character');
         },
         {
             characterType: 'N',
+            sortOrder: 0,
             eWord: 'Zero',
             jWord: 'Zero',
             hWord: 'ゼロ'
         },
         {
             characterType: 'N',
+            sortOrder: 1,
             eWord: 'One',
             jWord: 'Ichi',
             hWord: '一'
         },
         {
             characterType: 'N',
+            sortOrder: 2,
             eWord: 'Two',
             jWord: 'Ni',
             hWord: '二'
         },
         {
             characterType: 'N',
+            sortOrder: 3,
             eWord: 'Three',
             jWord: 'San',
             hWord: '三'
         },
         {
             characterType: 'N',
+            sortOrder: 4,
             eWord: 'Four',
             jWord: 'Yon',
             hWord: '四'
         },
         {
             characterType: 'N',
+            sortOrder: 5,
             eWord: 'Five',
             jWord: 'Go',
             hWord: '五'
         },
         {
             characterType: 'N',
+            sortOrder: 6,
             eWord: 'Six',
             jWord: 'Roku',
             hWord: '六'
         },
         {
             characterType: 'N',
+            sortOrder: 7,
             eWord: 'Seven',
             jWord: 'Nana',
             hWord: '七'
         },
         {
             characterType: 'N',
+            sortOrder: 8,
             eWord: 'Eight',
             jWord: 'Hachi',
             hWord: '八'
         },
         {
             characterType: 'N',
+            sortOrder: 9,
             eWord: 'Nine',
             jWord: 'Kyū',
             hWord: '九'
         },
         {
             characterType: 'N',
+            sortOrder: 10,
             eWord: 'Ten',
             jWord: 'Jū',
             hWord: '十'
         },
         {
             characterType: 'N',
+            sortOrder: 11,
             eWord: 'Eleven',
             jWord: 'Jūichi',
             hWord: '十一 '
         },
         {
             characterType: 'N',
+            sortOrder: 12,
             eWord: 'Twelve',
             jWord: 'Jūni',
             hWord: '十二'
         },
         {
             characterType: 'N',
+            sortOrder: 13,
             eWord: 'Thirteen',
             jWord: 'Jūsan',
             hWord: '十三'
         },
         {
             characterType: 'N',
+            sortOrder: 14,
             eWord: 'Fourteen',
             jWord: 'Jūyon',
             hWord: '十四'
         },
         {
             characterType: 'N',
+            sortOrder: 15,
             eWord: 'Fifteen',
             jWord: 'Jūgo',
             hWord: '十五'
         },
         {
             characterType: 'N',
+            sortOrder: 16,
             eWord: 'Sixteen',
             jWord: 'Jūroku',
             hWord: '十六'
         },
         {
             characterType: 'N',
+            sortOrder: 17,
             eWord: 'Seventeen',
             jWord: 'Jūnana',
             hWord: '十七'
         },
         {
             characterType: 'N',
+            sortOrder: 18,
             eWord: 'Eighteen',
             jWord: 'Jūhachi',
             hWord: '十八'
         },
         {
             characterType: 'N',
+            sortOrder: 19,
             eWord: 'Ninteen',
             jWord: 'Jūkyū',
             hWord: '十九'
         },
         {
             characterType: 'N',
+            sortOrder: 20,
             eWord: 'Twenty',
             jWord: 'Nijū',
             hWord: '二十'
         },
         {
             characterType: 'N',
+            sortOrder: 30,
             eWord: 'Thirty',
             jWord: 'Sanjū',
             hWord: '三十'
         },
         {
             characterType: 'N',
+            sortOrder: 40,
             eWord: 'Forty',
             jWord: 'Yonjū',
             hWord: '四十'
         },
         {
             characterType: 'N',
+            sortOrder: 50,
             eWord: 'Fifty',
             jWord: 'Gojū',
             hWord: '五十'
         },
         {
             characterType: 'N',
+            sortOrder: 60,
             eWord: 'Sixty',
             jWord: 'Rokujū',
             hWord: '六十'
         },
         {
             characterType: 'N',
+            sortOrder: 70,
             eWord: 'Seventy',
             jWord: 'Nanajū',
             hWord: '七十'
         },
         {
             characterType: 'N',
+            sortOrder: 80,
             eWord: 'Eighty',
             jWord: 'Hachijū',
             hWord: '八十'
         },
         {
             characterType: 'N',
+            sortOrder: 90,
             eWord: 'Ninety',
             jWord: 'Kyūjū',
             hWord: '九十'
         },
         {
             characterType: 'N',
+            sortOrder: 100,
             eWord: 'One hundred',
             jWord: 'Hyaku',
             hWord: '百'
