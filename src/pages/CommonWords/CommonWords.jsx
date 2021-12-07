@@ -14,12 +14,11 @@ export default function LearningCharacters() {
             <h1>Common Words</h1>
             <p>Choose between a couple word categories</p><br />
             <div className="dropdown">
-                <button className="dropbtn" onClick={myFunction} >Common Words</button>
+                <button className="dropbtn login-button button-4 linkButton" onClick={myFunction} ><span>Common Words</span></button>
                 <div id="myDropdown" className="dropdown-content">
-                    <Link to="/words/all">All Words</Link>
                     <Link to="/words/colors">Colors</Link>
                     <Link to="/words/numbers">Numbers</Link>
-                    <Link to="/words/easy">Easy Words</Link>
+                    <Link to="/words/useful">Useful Words</Link>
                 </div>
             </div>
         </div>

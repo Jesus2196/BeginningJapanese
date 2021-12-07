@@ -16,7 +16,7 @@ export default function Katakana({ characters }) {
         <div>
             <h1>Katakana</h1>
             {chars.map((k, i) => <KatakanaCard character={k} key={i} />)}
-            <Link to="/learning/hiragana/all">Switch over to Hiragana!</Link>
+            <button className="login-button button-4 linkButton"><Link to="/learning/hiragana/all"><span>Switch over to Hiragana!</span></Link></button>
         </div>
     )
 }

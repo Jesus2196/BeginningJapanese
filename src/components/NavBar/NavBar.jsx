@@ -11,17 +11,15 @@ export default function NavBar(props) {
 
   return (
     <nav>
-      <Link to="/learning">Leaning Characters</Link>
+      <button className="login-button button-4 linkButton"><Link to="/learning">Leaning Characters</Link></button>
       &nbsp; | &nbsp;
-      <Link to="/studying">Studying Characters</Link>
+      <button className="login-button button-4 linkButton"><Link to="/studying">Studying Characters</Link></button>
       &nbsp; | &nbsp;
-      <Link to="/words">Common Words</Link>
+      <button className="login-button button-4 linkButton"><Link to="/words">Common Words</Link></button>
       &nbsp; | &nbsp;
-      <Link to="/flashCards">Flash Cards</Link>
+      <button className="login-button button-4 linkButton blackText"><span>Welcome, {props.user.name}</span></button>
       &nbsp; | &nbsp;
-      <span>Welcome, {props.user.name}</span>
-      &nbsp; | &nbsp;
-      <Link to="" onClick={handleLogOut}>Log Out</Link>
+      <button className="login-button button-4 linkButton"><Link to="" onClick={handleLogOut}>Log Out</Link></button>
     </nav>
   );
 }

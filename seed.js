@@ -969,7 +969,7 @@ const Character = require('./models/character');
         {
             characterType: 'W',
             eWord: "You're Welcome",
-            jWord: 'Dōitashimashite',
+            jWord: 'Dōuitashimashite',
             hWord: 'どういたしまして'
         },
         {

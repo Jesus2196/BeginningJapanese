@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+link {
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +23,10 @@ nav {
   padding-bottom: 20px;
 }
 
+.linkButton {
+  border: 3px solid dodgerblue !important;
+}
+
 .row {
   margin: 0 -5px;
 }
@@ -34,4 +42,13 @@ nav {
   width: 25%;
   padding: 10px;
 
+}
+
+h3 {
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+span ,.blackText {
+  color: black;
 }
