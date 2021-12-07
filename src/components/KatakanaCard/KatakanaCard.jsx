@@ -1,4 +1,5 @@
 import React from "react";
+import './KatakanaCard.css'
 
 export default function KatakanaCard({ character }) {
     return (

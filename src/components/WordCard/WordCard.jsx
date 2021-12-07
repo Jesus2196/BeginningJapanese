@@ -1,21 +1,24 @@
 import React from "react";
+import './WordCard.css';
 
 export default function WordCard({ character }) {
     return (
-        <main>
-            <div className="column">
-                <div className="flip-card">
-                    <div className="flip-card-inner">
-                        <div className="flip-card-front">
-                            <h1>{character.eWord}</h1>
-                        </div>
-                        <div className="flip-card-back">
-                            <h3>{character.jWord}</h3>
-                            <h3>{character.hWord}</h3>
-                        </div>
+        <main className="container">
+            <div className="card">
+                <div className="face face1">
+                    <div className="content">
+
+                        <h3>{character.eWord}</h3>
+                    </div>
+                </div>
+                <div className="face face2">
+                    <div className="content">
+                        <p>{character.jWord}</p>
+                        <p>{character.hWord}</p>
                     </div>
                 </div>
             </div>
+
         </main>
     )
 }
