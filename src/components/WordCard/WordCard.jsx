@@ -1,14 +1,14 @@
 import React from "react";
 import './WordCard.css';
 
-export default function WordCard({ character, studyChars, setStudyChars }) {
+export default function WordCard({ character, studyWords, setStudyWords }) {
     function handleClick() {
-        setStudyChars([...studyChars, character]);
+        setStudyWords([...studyWords, character]);
     }
 
     return (
-        <main onClick={handleClick} className="container">
-            <div className="card">
+        <main className="container">
+            <div  onClick={handleClick} className="card">
                 <div  style={{"backgroundColor": `${character.eWord}`}} className="face face1">
                     <div className="content">
                         <h3>{character.eWord}</h3>

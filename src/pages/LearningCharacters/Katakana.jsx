@@ -2,7 +2,7 @@ import React from "react";
 import KatakanaCard from "../../components/KatakanaCard/KatakanaCard";
 import { useParams, Link } from 'react-router-dom';
 
-export default function Katakana({ characters }) {
+export default function Katakana({ characters, studyChars, setStudyChars }) {
     let chars;
     const { letter } = useParams();
     if (letter === 'all') {
@@ -15,7 +15,7 @@ export default function Katakana({ characters }) {
     return (
         <div>
             <h1>Katakana</h1>
-            {chars.map((k, i) => <KatakanaCard character={k} key={i} />)}
+            {chars.map((k, i) => <KatakanaCard studyChars={studyChars} setStudyChars={setStudyChars} character={k} key={i} />)}
             <button className="login-button button-4 linkButton"><Link to="/learning/hiragana/all"><span>Switch over to Hiragana!</span></Link></button>
         </div>
     )

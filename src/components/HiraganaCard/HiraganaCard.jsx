@@ -1,11 +1,15 @@
 import React from "react";
 import './HiraganaCard.css';
 
-export default function HiraganaCard({ character }) {
+export default function HiraganaCard({ character, studyChars, setStudyChars }) {
+    function handleClick() {
+        setStudyChars([...studyChars, character])
+    }
+
     return (
         <main>
             <div className="column">
-                <div className="flip-card">
+                <div onClick={handleClick} className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
                             <img
