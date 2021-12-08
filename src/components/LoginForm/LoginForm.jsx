@@ -43,7 +43,7 @@ export default function LoginForm({ setUser }) {
           <div className="login-overlay">
             <div className="login-overlay-panel login-overlay-right">
               <h1>Beginning Japanese</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sunt eligendi nesciunt explicabo neque ut accusamus? Aperiam, aut! Accusamus possimus sequi sapiente exercitationem delectus dolore aperiam ratione eius ea sed.</p>
+              <p>Welcome back! Continue reviewing some of the common words and Japanese character sets</p>
             </div>
           </div>
         </div>
