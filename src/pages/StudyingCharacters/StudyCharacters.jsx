@@ -1,13 +1,23 @@
-import React from "react";
 import HiraganaCard from "../../components/HiraganaCard/HiraganaCard";
-import { useParams, Link } from 'react-router-dom';
+import { useEffect, useState } from "react";
 
-export default function StudyCharacters({ studyChars, characters }) {
+export default function StudyCharacters({ studyChars, setStudyChars }) {
+    const [chars, setChars] = useState([]);
+
+    useEffect(function() {
+        if (studyChars.length) {
+            setChars(studyChars);
+            localStorage.setItem('studyChars', JSON.stringify(studyChars));
+        } else {
+            const savedChars = localStorage.getItem('studyChars');
+            if (savedChars) setChars(JSON.parse(savedChars));
+        }
+    }, []);
 
     return (
         <div>
             <h1>Further Studying Characters</h1>
-            {studyChars.map((h, i) => <HiraganaCard studyChars={studyChars} character={h} key={i} />)}
+            {chars.map((h, i) => <HiraganaCard studyChars={studyChars} setStudyChars={setStudyChars} character={h} key={i} />)}
         </div>
     )
 }
