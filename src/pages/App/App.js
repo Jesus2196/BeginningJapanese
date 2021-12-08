@@ -15,6 +15,7 @@ import * as CharactersAPI from '../../utilities/characters-api';
 export default function App() {
   const [user, setUser] = useState(getUser());
   const [characters, setCharacters] = useState([]);
+  const [studyChars, setStudyChars] = useState([]);
 
   useEffect(function () {
     async function getCharacters() {
@@ -23,7 +24,6 @@ export default function App() {
     }
     getCharacters();
   }, []);
-
 
   return (
     <main className="App">
@@ -34,11 +34,11 @@ export default function App() {
             <Route path="/learning" element={<LearningCharacters />} />
             <Route path='/learning/hiragana/:letter' element={<Hiragana characters={characters.filter(c => c.characterType === 'H')} />} />
             <Route path='/learning/katakana/:letter' element={<Katakana characters={characters.filter(c => c.characterType === 'K')} />} />
-            <Route path="/studying" element={<StudyingCharacters />} />
+            <Route path="/studying" element={<StudyingCharacters studyChars={studyChars} />} />
             <Route path="/words" element={<CommonWords />} />
-            <Route path="/words/numbers/" element={<Words characters={characters.filter(c => c.characterType === "N")} />} />
-            <Route path="/words/useful/" element={<Words characters={characters.filter(c => c.characterType === "W")} />} />
-            <Route path="/words/colors/" element={<Words characters={characters.filter(c => c.characterType === "C")} />} />
+            <Route path="/words/numbers/" element={<Words studyChars={studyChars} setStudyChars={setStudyChars} characters={characters.filter(c => c.characterType === "N")} />} />
+            <Route path="/words/useful/" element={<Words studyChars={studyChars} setStudyChars={setStudyChars}  characters={characters.filter(c => c.characterType === "W")} />} />
+            <Route path="/words/colors/" element={<Words studyChars={studyChars} setStudyChars={setStudyChars}  characters={characters.filter(c => c.characterType === "C")} />} />
             <Route path="/*" element={<Navigate to="/learning" />} />
           </Routes>
         </>
