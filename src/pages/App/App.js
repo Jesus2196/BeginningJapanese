@@ -38,8 +38,8 @@ export default function App() {
             <Route path='/learning/hiragana/:letter' element={<Hiragana studyChars={studyChars} setStudyChars={setStudyChars} characters={characters.filter(c => c.characterType === 'H')} />} />
             <Route path='/learning/katakana/:letter' element={<Katakana studyChars={studyChars} setStudyChars={setStudyChars} characters={characters.filter(c => c.characterType === 'K')} />} />
             <Route path="/studying" element={<StudyingCharacters studyChars={studyChars} />} />
-            <Route path="/studying/characters" element={<StudyCharacters studyChars={studyChars} setStudyChars={setStudyChars}/>} />
-            <Route path="/studying/words" element={<StudyWords studyWords={studyWords} setStudyWords={setStudyWords} />} />
+            <Route path="/studying/characters" element={<StudyCharacters user={user} studyChars={studyChars} setStudyChars={setStudyChars}/>} />
+            <Route path="/studying/words" element={<StudyWords user={user} studyWords={studyWords} setStudyWords={setStudyWords} />} />
             <Route path="/words" element={<CommonWords />} />
             <Route path="/words/numbers/" element={<Words studyWords={studyWords} setStudyWords={setStudyWords} characters={characters.filter(c => c.characterType === "N")} />} />
             <Route path="/words/useful/" element={<Words studyWords={studyWords} setStudyWords={setStudyWords}  characters={characters.filter(c => c.characterType === "W")} />} />

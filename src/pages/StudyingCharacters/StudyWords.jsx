@@ -1,15 +1,15 @@
 import WordCard from "../../components/WordCard/WordCard"
 import { useEffect, useState } from "react";
 
-export default function StudyWords({studyWords, setStudyWords}) {
+export default function StudyWords({ user, studyWords, setStudyWords}) {
     const [words, setWords] = useState([]);
 
     useEffect(function() {
         if (studyWords.length) {
             setWords(studyWords);
-            localStorage.setItem('studyWords', JSON.stringify(studyWords));
+            localStorage.setItem(user._id, JSON.stringify(studyWords));
         } else {
-            const savedWords = localStorage.getItem('studyWords');
+            const savedWords = localStorage.getItem(user._id);
             if (savedWords) setWords(JSON.parse(savedWords));
         }
     }, []);

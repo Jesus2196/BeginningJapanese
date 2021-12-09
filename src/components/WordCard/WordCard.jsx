@@ -3,6 +3,7 @@ import './WordCard.css';
 
 export default function WordCard({ character, studyWords, setStudyWords }) {
     function handleClick() {
+        if (studyWords.includes(character)) return;
         setStudyWords([...studyWords, character]);
     }
 
