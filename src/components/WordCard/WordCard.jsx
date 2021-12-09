@@ -1,16 +1,18 @@
 import React from "react";
 import './WordCard.css';
 
-export default function WordCard({ character, studyWords, setStudyWords }) {
+export default function WordCard({ handleRemoveWords, character, studyWords, setStudyWords }) {
     function handleClick() {
-        if (studyWords.includes(character)) return;
-        setStudyWords([...studyWords, character]);
+        if (studyWords.includes(character)) handleRemoveWords(character);
+        else {
+            setStudyWords([...studyWords, character]);
+        }
     }
 
     return (
         <main className="container">
-            <div  onClick={handleClick} className="card">
-                <div  style={{"backgroundColor": `${character.eWord}`}} className="face face1">
+            <div onClick={() => handleClick(character)} className="card">
+                <div style={{ "backgroundColor": `${character.eWord}` }} className="face face1">
                     <div className="content">
                         <h3>{character.eWord}</h3>
                     </div>

@@ -1,4 +1,4 @@
-.dropbtn {
+dropbtn {
   background-color: #3498DB;
   color: white;
   padding: 16px;
@@ -41,5 +41,6 @@
   display: block;
 }
 
-/* ------------------------------------------------------------------------------ */
-
+a {
+  text-decoration: none;
+}

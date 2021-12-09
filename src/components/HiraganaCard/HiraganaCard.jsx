@@ -1,9 +1,12 @@
 import React from "react";
 import './HiraganaCard.css';
 
-export default function HiraganaCard({ character, studyChars, setStudyChars }) {
+export default function HiraganaCard({ handleRemoveChars, character, studyChars, setStudyChars }) {
     function handleClick() {
-        setStudyChars([...studyChars, character])
+        if (studyChars.includes(character)) handleRemoveChars(character);
+        else {
+            setStudyChars([...studyChars, character])
+        }
     }
 
     return (

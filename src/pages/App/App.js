@@ -28,6 +28,22 @@ export default function App() {
     getCharacters();
   }, []);
 
+
+  useEffect(function () {
+    localStorage.setItem(user._id, JSON.stringify(studyWords));
+  }, [studyWords]);
+
+  function handleRemoveWords(character) {
+    if (studyWords.includes(character))
+      setStudyWords(studyWords.filter(word => word !== character));
+  }
+
+  function handleRemoveChars(character) {
+    if (studyChars.includes(character))
+    setStudyChars(studyChars.filter(char => char !== character));
+  }
+
+
   return (
     <main className="App">
       {user ?
@@ -37,13 +53,16 @@ export default function App() {
             <Route path="/learning" element={<LearningCharacters />} />
             <Route path='/learning/hiragana/:letter' element={<Hiragana studyChars={studyChars} setStudyChars={setStudyChars} characters={characters.filter(c => c.characterType === 'H')} />} />
             <Route path='/learning/katakana/:letter' element={<Katakana studyChars={studyChars} setStudyChars={setStudyChars} characters={characters.filter(c => c.characterType === 'K')} />} />
+
             <Route path="/studying" element={<StudyingCharacters studyChars={studyChars} />} />
-            <Route path="/studying/characters" element={<StudyCharacters user={user} studyChars={studyChars} setStudyChars={setStudyChars}/>} />
-            <Route path="/studying/words" element={<StudyWords user={user} studyWords={studyWords} setStudyWords={setStudyWords} />} />
+            <Route path="/studying/characters" element={<StudyCharacters handleRemoveChars={handleRemoveChars} user={user} studyChars={studyChars} setStudyChars={setStudyChars} />} />
+            <Route path="/studying/words" element={<StudyWords handleRemoveWords={handleRemoveWords} user={user} studyWords={studyWords} setStudyWords={setStudyWords} />} />
+
             <Route path="/words" element={<CommonWords />} />
             <Route path="/words/numbers/" element={<Words studyWords={studyWords} setStudyWords={setStudyWords} characters={characters.filter(c => c.characterType === "N")} />} />
-            <Route path="/words/useful/" element={<Words studyWords={studyWords} setStudyWords={setStudyWords}  characters={characters.filter(c => c.characterType === "W")} />} />
-            <Route path="/words/colors/" element={<Words studyWords={studyWords} setStudyWords={setStudyWords}  characters={characters.filter(c => c.characterType === "C")} />} />
+            <Route path="/words/useful/" element={<Words studyWords={studyWords} setStudyWords={setStudyWords} characters={characters.filter(c => c.characterType === "W")} />} />
+            <Route path="/words/colors/" element={<Words studyWords={studyWords} setStudyWords={setStudyWords} characters={characters.filter(c => c.characterType === "C")} />} />
+
             <Route path="/*" element={<Navigate to="/learning" />} />
           </Routes>
         </>
