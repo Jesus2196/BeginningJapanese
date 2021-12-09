@@ -13,9 +13,9 @@ export default function NavBar(props) {
     <nav>
       <button className="login-button button-4 linkButton"><Link to="/learning">Leaning Characters</Link></button>
       &nbsp; | &nbsp;
-      <button className="login-button button-4 linkButton"><Link to="/studying">Studying Characters</Link></button>
-      &nbsp; | &nbsp;
       <button className="login-button button-4 linkButton"><Link to="/words">Common Words</Link></button>
+      &nbsp; | &nbsp;
+      <button className="login-button button-4 linkButton"><Link to="/studying">Studying Characters</Link></button>
       &nbsp; | &nbsp;
       <button className="login-button button-4 linkButton blackText"><span>Welcome, {props.user.name}</span></button>
       &nbsp; | &nbsp;

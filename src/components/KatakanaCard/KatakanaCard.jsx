@@ -1,14 +1,18 @@
 import React from "react";
 import './KatakanaCard.css'
 
-export default function KatakanaCard({ character, studyChars, setStudyChars }) {
+export default function KatakanaCard({ handleRemoveChars, character, studyChars, setStudyChars }) {
     function handleClick() {
-        setStudyChars([...studyChars, character])
+        if (studyChars.includes(character)) handleRemoveChars(character);
+        else {
+            setStudyChars([...studyChars, character]);
+        }
     }
+
     return (
         <main>
             <div className="column">
-                <div  onClick={handleClick} className="flip-card">
+                <div onClick={() => handleClick(character)} className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
                             <img

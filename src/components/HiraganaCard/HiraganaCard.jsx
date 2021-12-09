@@ -5,14 +5,14 @@ export default function HiraganaCard({ handleRemoveChars, character, studyChars,
     function handleClick() {
         if (studyChars.includes(character)) handleRemoveChars(character);
         else {
-            setStudyChars([...studyChars, character])
+            setStudyChars([...studyChars, character]);
         }
     }
 
     return (
         <main>
             <div className="column">
-                <div onClick={handleClick} className="flip-card">
+                <div onClick={() => handleClick(character)} className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
                             <img

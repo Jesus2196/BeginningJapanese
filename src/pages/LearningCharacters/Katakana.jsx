@@ -11,7 +11,6 @@ export default function Katakana({ characters, studyChars, setStudyChars }) {
         chars = characters.filter(c => c.character.toLowerCase().includes(letter.toLowerCase()));
     }
 
-
     return (
         <div>
             <h1>Katakana</h1>

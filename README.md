@@ -32,3 +32,4 @@
 * Incorporate a Text to Speech API
 * Mobile Friendly Version
 * Updating/adding more Words
+* Styling Updates
